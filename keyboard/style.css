@@ -1,0 +1,50 @@
+.key{
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background: #444444;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: border-radius 0.3s, background-color 0.3s
+    }
+
+.backspace, .capslock{
+    width: 100px;
+}
+.enter{
+    width: 86px;
+}
+.tab,.alt{
+    width: 54px;
+}
+
+.control,.option{
+    width: 50px;
+}
+.shift{
+    width: 70px;
+}
+.probel{
+    width: 256px;
+    color: transparent;
+}
+.press{
+    background: #c52626;
+}
+
+.wrapper{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     width: 730px;
+}
+
+textarea{
+    width: 500px;
+    height: 200px;
+}
