@@ -25,6 +25,8 @@ wrapper.classList.add('wrapper');
 body.appendChild(wrapper);
 let upperCase=false;
 
+console.log('сообщение для student3, ссылка на мой Пр https://github.com/KroshRu/kroshru.github.io/pull/1');
+
 
 //развешивание стилей
 initialize(keyboard);
